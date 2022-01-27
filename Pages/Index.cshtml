@@ -1,0 +1,84 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Adam Castle Projects";
+}
+
+<div class="text-center" style="color:white">
+    <h1 class="display-4 font-weight-bold">Adam Castle</h1>  
+    <h3>Projects</h3>
+</div>
+<div class="container">
+    <div class="row gutters-sm mt-4">
+        <div class="col-md-6 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex flex-column align-items-center text-center">                        
+                            <h4><a href="https://castlelibrary.azurewebsites.net">CastleLibrary</a></h4>
+                        <p><em>AKA "BookCatalog"</em></p>
+                        <img src="~/Images/booksPhoto.jpg"/>     
+                        <br />                       
+                        <br />
+                        <div class="text-left">
+                            <h6>Function</h6>
+                            <br />
+                            <ul>
+                                <li>WebApp designed to help a librarian manage book loans</li>
+                                <li>Books are taken out, returned, and fines generated</li>
+                                <li>Users blocked for not returning books</li>
+                                <li>All records of loans, users, books, and authors support CRUD operations</li>
+                            </ul>
+                            <br />
+                            <h6>Languages & Frameworks</h6>
+                            <br />
+                            <ul>
+                                <li>Data access with Entity Framework Core (Code-First)</li>
+                                <li>LINQ queries</li>
+                                <li>Using Model-View-Controller Structure</li>
+                                <li>Connected to a MySQL database and hosted <a href="https://castlelibrary.azurewebsites.net">here</a></li>
+                                <li>Designed using CSS Bootstrap</li>
+                            </ul>
+                        </div>                        
+                        <p><a href="https://github.com/AdamGCastle/BookCatalogMVC">See Project on GitHub</a></p>                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex flex-column align-items-center text-center">
+                        <h4><a href="https://teacheradmin.azurewebsites.net">TeacherAdmin</a></h4>
+                        <br />
+                        <br />
+                        <img src="~/Images/TeacherHat3.png" />
+                        <br />
+                        <br />
+                        <div class="text-left">
+                            <h6>Function</h6>
+                            <br />
+                            <ul>
+                                <li>WebApp designed to help a teacher keep track of lesson schedules, student details, and student performance</li>
+                                <li>Teacher user can create and alter details of each individual student and create and alter lesson plans</li>
+                            </ul>
+                            <br />
+                            <h6>Languages & Frameworks</h6>
+                            <br />
+                            <ul>
+                                <li>Data access with Entity Framework Core (Code-First)</li>
+                                <li>LINQ queries</li>
+                                <li>Razor Pages folder structure</li>
+                                <li>Connected to a MySQL database and hosted <a href="https://teacheradmin.azurewebsites.net">here</a></li>
+                                <li>Designed using CSS Bootstrap</li>
+
+                            </ul>
+                        </div>
+                        <br />
+                        <br />   
+                        <p><a href="https://github.com/AdamGCastle/TeacherAdmin">See Project on GitHub</a></p>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
