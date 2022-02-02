@@ -9,20 +9,15 @@
 </head>
 <body style="background-color:cadetblue">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Projects</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li><a class="navbar-brand" asp-area="" asp-page="/Profile">Profile</a></li>
-                    </ul>
+        <div style="text-align: center; display: inline">           
+            <nav class="navbar navbar-toggleable navbar-light bg-white border-bottom box-shadow">   
+                <div class="flex-grow-1">
+                   <a class="navbar-brand"  asp-area="" asp-page="/Index">Projects</a>
+                    <a class="navbar-brand" asp-area="" asp-page="/Profile">Profile</a>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
+       
     </header>
     <div class="container">
         <main role="main" class="pb-3">
